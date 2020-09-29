@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>FCC Product Landing Page: Sky City Guitars</title>
+    <meta name="" content="">
+    <meta name="" content="">
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <ul id="main-nav">
+                <li><img src="https://images.unsplash.com/photo-1542360239018-6ae30eb8f579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+                        id="header-img">
+                </li>
+                <li><a href="#about-us" class="nav-link">About Us</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- intro info and title div -->
+        <div id="intro-div">
+            <h1 id="company-name">Sky City Guitars</h1>
+            <h4 id="subtitle">Custom guitars created with <span>care.</span></h4>
+        </div>
+
+        <!-- about us -->
+        <div id="about-us">
+            <h2 class="headings">About Us</h2>
+            <p class="sub-headings">We are Sky City Guitars. We make custom guitars that are hand-crafted here in the
+                USA, sourced from only
+                the
+                finest wood and metal. We provide a level of detail that can't be found anywhere else.</p>
+        </div>
+
+        <div id="features">
+            <h2 class="headings">Features</h2>
+            <ul>
+                <li class="sub-headings">100% handcrafted</li>
+                <li class="sub-headings">Locally sourced materials</li>
+                <li class="sub-headings">Created by musicians</li>
+            </ul>
+        </div>
+
+        <div id="pricing">
+            <h2 class="headings">Pricing</h2>
+            <ul>
+                <li class="sub-headings">Tier 1: $1200</li>
+                <li class="sub-headings">Tier 2: $1500</li>
+                <li class="sub-headings">Tier 3: $1800</li>
+            </ul>
+        </div>
+
+        <!-- video -->
+        <div id="vid-div">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/C97H_HvBjPA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- form div-->
+        <div id="form-div">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <label id="email-label" for="email">Want to learn more?</label>
+                <input type="email" name="email" placeholder="Enter your email" id="email" required>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

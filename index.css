@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(85, 0, 0);
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 19.0em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    border-right: 0.25em solid white;
+}
+
+nav a {
+    padding: 0.375em 0.5em 0.375em 1.0em;
+    font-size: 3.5em;
+    display: block;
+    color: white;
+}
+
+a:hover {
+    color: rgb(202, 80, 9);
+}
+
+main {
+    margin-left: 19.0em;
+    font-family: 'Playfair Display', serif;
+}
+
+#intro-div {
+    color: white;
+    text-align: center;
+}
+
+#company-name {
+    margin: 1.0em;
+    font-size: 7.0em;
+    font-family: 'Roboto', sans-serif;
+    border: .1em solid rgb(202, 80, 9);
+    border-radius: 0.5em;
+    padding: 0.20em;
+    text-shadow: 0.175em 0.175em 0.175em black;
+}
+
+#subtitle {
+    font-size: 4.0em;
+    margin: 1.0em;
+    text-shadow: 1px 1px 1px black;
+}
+
+span {
+    color: rgb(243, 173, 10);
+    font-style: italic;
+    text-shadow: 3px 3px 3px black;
+}
+
+.headings {
+    font-size: 6.0em;
+    text-shadow: 3px 3px 1px black;
+}
+
+.sub-headings {
+    font-size: 3.0em;
+    text-shadow: 3px 3px 1px black;
+}
+
+#about-us {
+    color: white;
+    text-align: center;
+    margin: 3.5em;
+}
+
+#features {
+    color: white;
+    text-align: center;
+    margin: 3.5em;
+}
+
+#pricing {
+    color: white;
+    text-align: center;
+    margin: 3.5em;
+}
+
+#vid-div {
+    margin: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    border: 2px solid white;
+    border-radius: 1.0em;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    margin: 3.5em;
+}
+
+#email-label {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    text-shadow: 3px 3px 1px black;
+}
+
+#email {
+    font-size: 2.0em;
+    height: 2.0em;
+    margin-bottom: 1.0em;
+    border-radius: 0.5em;
+    box-shadow: 0.125em 0.125em 0.125em black;
+}
+
+#submit {
+    padding: 1.0em;
+    font-size: 2.0em;
+    background-color: rgb(202, 80, 9);
+    border-radius: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0.125em 0.125em 0.125em black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#submit:hover {
+    background-color: rgb(202, 80, 9);
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    #submit {
+        padding: 0.7em;
+        width: 7.0em;
+        text-shadow: 1px 1px 1px black;
+    }
+}
